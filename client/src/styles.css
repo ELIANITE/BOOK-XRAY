@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #f6f7fb;
+  color: #111827;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+button:hover {
+  background: #f3f4f6;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+label {
+  display: block;
+}

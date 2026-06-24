@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Backend",
+      "type": "shell",
+      "command": "cd server && ../server/.local/node-v20.18.0-darwin-x64/bin/node index.js",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Frontend",
+      "type": "shell",
+      "command": "cd client && ../server/.local/node-v20.18.0-darwin-x64/bin/npm run dev",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
